@@ -7,10 +7,10 @@
 - Верстка на созвоне - sozvon.html
 
 ### Домашнее задание  
-- [х] Тест
-- [х] Задание 1 - Игра https://cssgridgarden.com/#ru
-- [ ] Задание 2 - 
-- [ ] Задание 3 - 
+- [x] Тест
+- [x] Задание 1 - Игра https://cssgridgarden.com/#ru
+- [x] Задание 2 - Верстка странички - dz1.html + style_dz1.css
+- [ ] Задание 3 - Верстка макета из Figma
 - [ ] Soft Skills
 
 
