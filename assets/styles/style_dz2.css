@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #162831;
+  }
+.container {
+    display: grid;
+    /* border: 1px solid red; */
+    justify-items: center;
+  }
+  /*меню навигации*/
+  .top_line {
+    display: grid;
+    grid-template-columns: 60px max-content 160px;
+    /* border: 1px solid blue; */
+    width: 1298px;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    justify-items: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  .navmenu {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 1fr;
+    list-style-type: none;
+    padding-left: 0;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.navmenu>li {
+    padding-left: 22px;
+    margin-left: 22px;
+}
+.navmenu>li>a:hover {
+    color: #018ABE;
+}
+.navmenu>li>a {
+    text-decoration: none;
+    color: white;
+    font-size: 14;
+}
+.navbutton {
+    background-color: #018ABE;
+    color: white;
+    font-size: 13;
+    width: 160px;
+    height: 36px;
+    border-radius: 3%;
+}
+/*заглавные картинка и текст*/
+.firstscreen {
+    background-image: url(../images/first-screen.png);
+    width: 1296px;
+    height: 600px;
+    margin-bottom: 150px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+.text {
+    /* position: absolute;
+    top: 276px;
+    left: 840px;
+    right: 840px; */
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    width: 588px;
+    height: 34px;
+}
+.title {
+    /* position: absolute;
+    top: 350px;
+    left: 666px;
+    right: 666px; */
+    color: white;
+    font-size: 64px;
+    text-align: center;
+    width: 588px;
+    height: 180px;
+}
+/*раздел с сеансами*/
+.seans {
+    /* border: 1px solid white; */
+    width: 1296px;
+    height: 700px;
+    display: grid;
+    align-content: space-between;
+    margin-bottom: 150px;
+}
+.seans_title,
+.otzyvy_title {
+    color: white;
+    font-size: 42px;
+    text-align: center;
+}
+.seans_img {
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "img1 img2 img3"
+        "img1 img4 img5";
+    align-items: center;
+    justify-items: center;
+}
+.img1 {
+    width: 416px;
+    height: 540px;
+    grid-area: img1;
+}
+.img2 {
+    width: 416px;
+    height: 258px;
+    grid-area: img2;
+}
+.img3 {
+    width: 416px;
+    height: 258px;
+    grid-area: img3;
+}
+.img4 {
+    width: 416px;
+    height: 258px;
+    grid-area: img4;
+}
+.img5 {
+    width: 416px;
+    height: 258px;
+    grid-area: img5;
+}
+/*раздел с отзывами*/
+.otzyvy {
+    border: 1px solid white;
+    width: 1736px;
+    height: 586px;
+    display: grid;
+    margin-bottom: 150px;
+}
