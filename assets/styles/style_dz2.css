@@ -263,7 +263,7 @@
     display: grid;
     grid-area: map;
 }
-.footcard1, .footcard2 {
+.footcard1 {
     display: grid;
     grid-area: footcard1;
     background-color: #018ABE;
